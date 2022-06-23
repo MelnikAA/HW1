@@ -15,19 +15,19 @@
     <link rel="stylesheet" href="styles/plan.css">
     <link rel="stylesheet" href="styles/sub.css">
     <link rel="stylesheet" href="styles/landing.css">
+    <link rel="stylesheet" href="styles/drop-style.css">
 </head>
 <body>
     <header class="header">
         <img class="header__logo" src="img/logo.svg">
-        <nav class="header-nav__menu nav">
-            <li class="header-li__menu"><a class="menu__a">Home</a></li>
-            <li class="header-li__menu"><a class="menu__a">Features</a></li>
-            <li class="header-li__menu"><a class="menu__a">Pricing</a></li>
-            <li class="header-li__menu"><a class="menu__a">Blog</a></li>
+        <nav class="header__menu menu">
+            <li class="menu__list"><a href="#" class="menu__item">Home</a></li>
+            <li class="menu__list"><a href="#features" class="menu__item">Features</a></li>
+            <li class="menu__list"><a href="#pricing" class="menu__item">Pricing</a></li>
+            <li class="menu__list"><a class="menu__item">Blog</a></li>
         </nav>
-    
         <button class="header__button">Get Started</button>
-    
+
     </header>
     <main
         class="main"
@@ -48,9 +48,10 @@
                     Get Started
                 </button>
                 <button
-                class="main-landing__button__down"
-                > 
-                <img src="img/arrow-down.svg" alt="arr">
+                    class="main-landing__button__down"
+                    > 
+                    <img 
+                        src="img/arrow-down.svg" alt="arr">
                 </button>
             </div>
             <img
@@ -64,29 +65,29 @@
             class="main__members members"
         >
             <img
-            src="img/logo/logo1.svg"
-            class="members__img"
-            alt="logo"
+                src="img/logo/logo1.svg"
+                class="members__img"
+                alt="logo"
             />  
             <img
-            src="img/logo/logo2.svg"
-            class="members__img"
-            alt="logo"
+                src="img/logo/logo2.svg"
+                class="members__img"
+                alt="logo"
             />  
             <img
-            src="img/logo/logo3.svg"
-            class="members__img"
-            alt="logo"
+                src="img/logo/logo3.svg"
+                class="members__img"
+                alt="logo"
             />  
             <img
-            src="img/logo/logo4.svg"
-            class="members__img"
-            alt="logo"
+                src="img/logo/logo4.svg"
+                class="members__img"
+                alt="logo"
             />  
             <img
-            src="img/logo/logo5.svg"
-            class="members__img"
-            alt="logo"
+                src="img/logo/logo5.svg"
+                class="members__img"
+                alt="logo"
             />  
         </section>
         <section
@@ -98,7 +99,7 @@
                 alt="hero"
             />
             <div
-            class="subindex__wrapper">
+                class="subindex__wrapper">
                 <h1 class="subindex__title">
                     Subscription index
                 </h1>
@@ -134,43 +135,44 @@
         </section>
         <section
             class="main__advantage advantage"
+            id = "features"
         >
 
-                <div class="advantage__card">
+                <div class="advantage__card card">
                     <img
                         src="img/card.png"
-                        class="advantage__card__img"
+                        class="card__img"
                         alt="card"
                      /> 
-                    <h1 class="advantage__card__title">
+                    <h1 class="card__title">
                         Benchmarks
                     </h1>
-                    <p class="advantage__card__text">
+                    <p class="card__text">
                         See how you stack up against comparable companies in similar stages.
                     </p>
                 </div>
-                <div class="advantage__pricing">
+                <div class="advantage__pricing pricing">
                     <img
                         src="img/calculator.png"
-                        class="advantage__pricing__img"
+                        class="pricing__img"
                         alt="calculator"
                      /> 
-                    <h1 class="advantage__pricing__title">
+                    <h1 class="pricing__title">
                         Pricing Audit
                     </h1>
-                    <p class="advantage__pricing__text">
+                    <p class="pricing__text">
                         Benchmark the health of your monetization and pricing strategy.
                 </div>
-                <div class="advantage__retention">
+                <div class="advantage__retention retention">
                     <img
                         src="img/Camera.png"
-                        class="advantage__retention__img"
+                        class="retention__img"
                         alt="camera"
                      /> 
-                    <h1 class="advantage__retention__title">
+                    <h1 class="retention__title">
                         Retention Audit
                     </h1>
-                    <p class="advantage__retention__text">
+                    <p class="retention__text">
                         Audit where revenue leakage exists and where you can increase retention.
                     </p>
                 </div>
@@ -185,61 +187,71 @@
                 <h1 class="plan__title">
                     Get the right plan for future product.
                 </h1>
-                <img class="plan__button" src="img/Btn.png" alt="кнопка">
+                <div class="plan__my-button">
+                    <input type="radio" name="sort-option" id="yearly" value="yearly">
+                    <label class="my-button__option" for="yearly">
+                        Yearly
+                    </label>
+                    <input id="monthly" name="sort-option" value="monthly" type="radio">
+                    <label class="my-button__option" for="monthly">
+                        Monthly
+                    </label>
+                </div>
             
         </section>
 
         <section
             class="main__sub sub"
+            id = "pricing"
         >
         <div class="sub__wrapper">
-            <div class="sub__starter">
-                <div class="sub__starter__name">
+            <div class="sub__starter starter">
+                <div class="starter__name">
                     Starter
                 </div> 
-                <div class="sub__starter__price">
+                <div class="starter__price">
                     Free
                 </div>
-                <div class="sub__starter__info">
+                <div class="starter__info">
                     <p> 1 Website</p>
                     <p>5 GB Hosting</p>
                     <p>Limited Support</p>
-                <button class="sub__starter__get-started">
+                <button class="starter__get-started">
                     Get Started
                 </button>
                 </div>
             </div>
-            <div class="sub__premium">
-                <div class="sub__premium__name">
+            <div class="sub__premium premium">
+                <div class="premium__name">
                     Premium
                 </div> 
-               <div class="sub__premium__price">
-                   $29/ <span class="sub__premium__price__small">month</span>
+               <div class="premium__price">
+                   $29<span class="premium__price-small">/month</span>
                </div>
-               <div class="sub__premium__info">
+               <div class="premium__info">
                 <p> 10 Website</p>
                 <p>15 GB Hosting</p>
                 <p>Premium Support</p>
                </div>
                
-               <button class="sub__premium__get-started">
+               <button class="premium__get-started">
                    Get Started
                </button>
             </div>
 
-             <div class="sub__enterprise">
-                <div class="sub__enterprise__name">
+             <div class="sub__enterprise enterprise">
+                <div class="enterprise__name">
                     Enterptise
                 </div> 
-               <div class="sub__enterprise__price">
-                    $49/<span class="sub__enterprise__price__small">month</span>
+               <div class="enterprise__price">
+                    $49<span class="enterprise__price-small">/month</span>
                </div>
-               <div class="sub__enterprise__info">
+               <div class="enterprise__info">
                 <p> 1 Website</p>
                 <p>5 GB Hosting</p>
                 <p>Limited Support</p>
                </div>
-               <button class="sub__enterprise__get-started">
+               <button class="enterprise__get-started">
                    Get Started
                </button>
              </div>

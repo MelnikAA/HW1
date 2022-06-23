@@ -14,7 +14,7 @@
     justify-content: center;
 }
 
-.sub__starter{
+.starter{
     text-align: center;
     vertical-align: middle;
     width: 330px;
@@ -23,21 +23,21 @@
     border-radius: 10px;
 }
 
-.sub__starter__name{
+.starter__name{
     padding-top: 34px;
     font-size: 18px;
     text-align: center;
     color: rgb(105, 104, 113);
 }
 
-.sub__starter__price{
+.starter__price{
     font-size: 60px;
     text-align: center;
     color: rgb(29, 41, 63);
     margin: 22px 28px;
 }
 
-.sub__starter__info{
+.starter__info{
     font-size: 18px;
     line-height: 50px;
     text-align: center;
@@ -45,7 +45,7 @@
     margin-top: 28px;
 }
 
-.sub__starter__get-started{
+.starter__get-started{
     width: 285px;
     height: 60px;
     background: #FFFFFF;
@@ -64,25 +64,25 @@
     border-radius: 10px;
 }
 
-.sub__premium__name{
+.premium__name{
     padding-top: 34px;
     font-size: 18px;
     text-align: center;
     color: #FFFFFF;
 }
 
-.sub__premium__price{
+.premium__price{
     font-size: 60px;
     text-align: center;
     color: #FFFFFF;
     margin: 22px 28px;
 }
 
-.sub__premium__price__small{
+.premium__price-small{
     font-size: 25px;
 }
 
-.sub__premium__info{
+.premium__info{
     font-size: 18px;
     line-height: 50px;
     text-align: center;
@@ -90,7 +90,7 @@
     margin-top: 28px;
 }
 
-.sub__premium__get-started{
+.premium__get-started{
     width: 285px;
     height: 60px;
     background: #9F3919;
@@ -111,25 +111,25 @@
 }
 
 
-.sub__enterprise__name{
+.enterprise__name{
     padding-top: 34px;
     font-size: 18px;
     text-align: center;
     color: rgb(105, 104, 113);
 }
 
-.sub__enterprise__price{
+.enterprise__price{
     font-size: 60px;
     text-align: center;
     color: rgb(29, 41, 63);
     margin: 22px 28px;
 }
 
-.sub__enterprise__price__small{
+.enterprise__price-small{
     font-size: 25px;
 }
 
-.sub__enterprise__info{
+.enterprise__info{
     font-size: 18px;
     line-height: 50px;
     text-align: center;
@@ -137,7 +137,7 @@
     margin-top: 28px;
 }
 
-.sub__enterprise__get-started{
+.enterprise__get-started{
     width: 285px;
     height: 60px;
     background: #FFFFFF;

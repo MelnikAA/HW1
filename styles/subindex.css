@@ -27,6 +27,12 @@
     color: #696871;
 }
 
+.subindex__link{
+    margin-top: 30px;
+    font-size: 17px;
+    color: #5454D4;  
+  }
+
 @media screen and (max-width: 1400px) {
     .subindex {
         gap: 30px;
