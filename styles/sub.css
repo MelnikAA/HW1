@@ -1,9 +1,8 @@
 .sub{
-    padding: 40px;
+    padding: 40px 0;
     align-items: center;
     flex-wrap: wrap;
     gap: 120px;
-    
 }
 
 .sub__wrapper{
@@ -27,7 +26,7 @@
     padding-top: 34px;
     font-size: 18px;
     text-align: center;
-    color: rgb(105, 104, 113);
+    color: #696871;
 }
 
 .starter__price{

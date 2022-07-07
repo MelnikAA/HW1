@@ -1,5 +1,5 @@
 .main-landing {
-    padding: 40px;
+    padding: 40px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +38,7 @@
     cursor: pointer;
 }
 
-.main-landing__button__down{
+.main-landing__button-down {
     margin-top: 30px;
     margin-left: 40px;
     padding: 19px 18px;

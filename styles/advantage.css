@@ -1,6 +1,6 @@
 .advantage{
     display: flex;
-    padding: 40px;
+    padding: 40px 0;
     justify-content: center;
     align-items: center;
     gap: 74px;
