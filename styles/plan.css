@@ -1,0 +1,76 @@
+.plan{
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 74px;
+}
+
+.plan__title {
+    margin-bottom: 30px;
+    font-size: 80px;
+    line-height: 77px;
+    max-width: 523px;
+}
+
+
+.plan__my-button {
+    width: 344px;
+    height: 65px;
+    border-radius: 10px;
+    background: #F7F7FB;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.plan__my-button .my-button__option {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+}
+
+.plan__my-button input {
+    display: none;
+}
+
+input:checked+.my-button__option {
+    border-radius: 10px;
+    background-color: #5454D4;
+    color: white;
+}
+
+@media screen and (max-width: 1400px) {
+    .plan {
+        gap: 30px;
+    }
+
+    .plan__button {
+        width: 40%;
+    }
+
+    .plan__title {
+        margin-bottom: 30px;
+        font-size: 40px;
+        line-height: 47px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .plan {
+        flex-direction: column;
+    }
+
+    .plan__button {
+        width: 60%;
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .plan__button {
+        min-width: 200px;
+        width: 100%;
+    }
+}

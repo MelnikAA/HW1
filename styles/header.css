@@ -1,0 +1,131 @@
+.header {
+    padding: 20px 0;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    gap: 20px; 
+}
+
+.header__logo {
+    width: 200px;
+    height: 41px;
+    margin-top: 10px;
+}
+
+.header__menu {
+    display: flex;
+    margin-left: 173px;
+    gap: 0px 49px;
+}
+
+.menu__item {
+    padding-bottom: 7px;
+    color: #696871;
+}
+
+.menu__item:hover {
+    cursor: pointer;
+    color: #19191B;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #5454D4;
+}
+
+.header__button {
+    border: none  
+}
+
+.header__button:hover {
+    background: #B14A19FF;
+    border-color: #B14A19FF;
+    transition: all ease 0.5s;
+}
+
+.menu__list {
+    list-style-type: none;
+    margin-top: 14px;
+}
+
+.header__button {
+    margin-left: 159px;
+    height: 60px;
+    width: 211px;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.5314737558364868px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: #FF7143;
+    background: #FF7143;
+    color: #FFFFFF;
+    cursor: pointer;
+    min-width: 150px;
+}
+
+@media screen and (max-width: 1300px) {
+    .header__menu {
+        margin-left: 50px;
+        gap: 25px;
+    }
+
+    .header__button {
+        margin-left: 59px;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+    .header__menu {
+        margin-left: 20px;
+        gap: 18px;
+    }
+
+    .header__button {
+        margin-left: 39px;
+        height: 50px;
+        width: 175px;
+
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .header__logo {
+        width: 150px;
+    }
+
+    .header__menu {
+        gap: 10px;
+    }
+
+    .header__button {
+        margin-left: 39px;
+        height: 50px;
+        width: 175px;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .header__wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        gap: 15px;
+    }
+
+    .header__menu {
+        order: 1;
+    }
+
+    .header__button {
+        height: 50px;
+        width: 175px;
+        order: 2;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+}
+
